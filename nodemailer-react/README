@@ -1,0 +1,38 @@
+# Nodemailer Mailer Application
+
+Cette application est une solution pour envoyer des emails en utilisant [Nodemailer](https://nodemailer.com/). 
+
+## Prérequis
+
+Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
+
+- [Node.js](https://nodejs.org/) version 14 ou supérieure
+- [npm](https://www.npmjs.com/) (installé avec Node.js)
+
+## Installation
+
+1. **Clonez le dépôt :**
+
+   ```bash
+   git clone https://github.com/ZinebSG/nodmailer.git
+   cd nodmailer
+
+1.Installez les dépendances :
+
+Exécutez la commande suivante pour installer les dépendances nécessaires via npm :
+npm install
+
+
+2. Configuration
+Créez un fichier .env à la racine du projet :
+
+Ce fichier contiendra vos variables d'environnement pour la configuration de l'application.
+
+
+SMTP_HOST=smtp.votre-serveur.com
+SMTP_PORT=5870
+SMTP_USER=votre.email@exemple.com
+SMTP_PASS=motdepasse
+FROM_EMAIL=votre.email@exemple.com
+
+
