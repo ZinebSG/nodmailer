@@ -17,8 +17,8 @@ function sendEmail({ email, subject, message }) {
     var transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "tnodemailler@gmail.com",
-        pass: "ittu zzed ewxc yker",
+        user: "!changeMe!",
+        pass: "!changeMe!r",
       },
     });
 
